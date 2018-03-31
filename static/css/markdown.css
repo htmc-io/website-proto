@@ -1,0 +1,50 @@
+.markdown {
+  padding: 5%;
+  padding-top: 1%;
+  width: 50vw;
+  background-color: #fdfdfd;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markdown h1 {
+  color: #333333;
+  text-align: center;
+}
+
+.markdown h2 {
+  font-size: 3.0vh;
+  color: #333333;
+  background-color: #f1f9f7;
+  border-radius: 6px;
+  padding: 3px;
+  padding-left: 5px;
+}
+
+.markdown a {
+  color: #00ccff;
+  text-decoration: none;
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+}
+
+
+.markdown img {
+  width: 45vw;
+  /*height: 80vh;*/
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+.markdown ul {
+  margin-top: -0.8vh;
+}
+
+.markdown p {
+  line-height: 1.6;
+}
+
+.markdown li {
+  line-height: 2.0;
+}

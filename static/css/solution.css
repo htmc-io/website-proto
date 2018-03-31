@@ -1,0 +1,74 @@
+.intro {
+  height: 100vh;
+}
+
+.intro .content-wrapper {
+  width: 40%;
+  height: 100%;
+  float: left;
+  color: #ffffff;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.intro .content {
+  width: 74%;
+  font-size: 2.7vh;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #333;
+  padding: 13%;
+  padding-top: 15%;
+}
+
+.intro li {
+  padding-top: 6px;
+}
+
+.intro .title {
+  text-shadow: 2px 2px 2px #111;
+}
+
+.intro a {
+  color: #ffffff;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px #111
+}
+
+.intro a:hover {
+  text-shadow: 3px 3px 3px #111
+}
+
+.intro .cover-wrapper {
+  width: 60%;
+  height: 100%;
+  float: left;
+  background-color: #ffffff;
+}
+
+.intro img {
+  padding-left: 5%;
+  padding-right: 3%;
+  height: 100%;
+}
+
+.intro:nth-child(odd) .content-wrapper,
+.cover-wrapper {
+  float: left;
+}
+
+.intro:nth-child(even) .content-wrapper,
+.cover-wrapper {
+  float: right;
+}
+
+.intro:nth-child(1) .content-wrapper {
+  background-color: #AC0;
+}
+
+.intro:nth-child(2) .content-wrapper {
+  background-color: #66ccff;
+}
+
+.intro:nth-child(3) .content-wrapper {
+  background-color: #dddddd;
+}

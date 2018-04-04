@@ -1,7 +1,7 @@
 ---
 title: "微服务平台解决方案"
 abstract: "与 DevOps 深度集成；系统自动化测试、部署、回滚；容器化管理，业务间隔离；运维更方便灵活；秒级扩缩容，快速解决性能瓶颈；更快的业务上线和故障恢复；基于业界最先进的 Docker + Kubernetes"
-image: "/img/solution/microservice/architecture.png"
+image: "/img/solution/microservice/cover.png"
 ---
 
 ## 方案简介

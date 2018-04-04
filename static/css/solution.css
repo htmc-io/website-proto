@@ -43,11 +43,12 @@
   height: 100%;
   float: left;
   background-color: #ffffff;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .intro img {
-  padding-left: 5%;
-  padding-right: 3%;
   height: 100%;
 }
 
@@ -66,9 +67,9 @@
 }
 
 .intro:nth-child(2) .content-wrapper {
-  background-color: #66ccff;
+  background-color: #e8e8e8;
 }
 
 .intro:nth-child(3) .content-wrapper {
-  background-color: #dddddd;
+  background-color: #66ccff;
 }

@@ -1,7 +1,7 @@
 ---
 title: "视频会议解决方案"
 abstract: "Point 1；Point 1；Point 1"
-image: "/img/solution/video-conference/architecture.png"
+image: "/img/solution/video-conference/cover.jpg"
 ---
 ## 方案简介
 

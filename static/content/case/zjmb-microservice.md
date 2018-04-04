@@ -1,7 +1,7 @@
 ---
 title: "基于微服务的网管运维平台"
 abstract: "基于微服务架构；集成 DevOps 开发环境；根据业务负载量，快速动态扩缩容；支持租户管理和租户隔离；提供 API 网关，对外提供开放 API"
-image: "/img/case/microservice/architecture.png"
+image: "/img/case/microservice/cover.jpg"
 ---
 
 ## 案例简介
@@ -17,3 +17,4 @@ image: "/img/case/microservice/architecture.png"
 
 
 ## 性能指标
+

@@ -1,7 +1,7 @@
 ---
 title: "大数据在电信设备性能分析预测上的应用"
 abstract: "数据收集；分布式存储；分布式计算；性能分析，业务分析，能力刻画"
-image: "/img/solution/bigdata/architecture1.png"
+image: "/img/case/bigdata/cover.jpg"
 ---
 
 ## 案例简介

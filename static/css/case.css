@@ -49,8 +49,6 @@
 }
 
 .intro img {
-  padding-left: 5%;
-  padding-right: 3%;
   height: 100%;
 }
 
@@ -74,4 +72,12 @@
 
 .intro:nth-child(3) .content-wrapper {
   background-color: #dddddd;
+}
+
+.intro:nth-child(4) .content-wrapper {
+  background-color: #AC0;
+}
+
+.intro:nth-child(4) img {
+  padding-left: 5%;
 }

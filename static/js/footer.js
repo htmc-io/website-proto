@@ -1,6 +1,5 @@
 var footer = `
 <div class='footer-wrapper'>
-  <div>footer</div>
 </div>
 `
 

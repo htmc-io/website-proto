@@ -18,17 +18,21 @@ h2 {
 }
 
 #logo {
-  padding-top: 15px;
   float: left;
 }
 
 #logo img {
-  width: 80px;
-  height: 80px;
+  padding-top: 1.5vh;
+  padding-left: 3vh;
+  width: 4.0vh;
+  height: 4.0vh;
 }
 
 #logo span {
-  font-size: 40px;
+  position: absolute;
+  top: 1.5vh;
+  left: 7.0vh;
+  font-size: 3.0vh;
 }
 
 #nav-list {
@@ -43,22 +47,26 @@ h2 {
 }
 
 #nav-list li a:hover {
-  color: #88dd66;
-  text-decoration: underline;
+  color: #f1501a;
+  text-decoration: none;
 }
 
 #nav-list li {
-  font-size: 20px;
+  padding-top: 5px;
+  font-size: 1.7vh;
   float: left;
   padding-left: 80px;
-  padding-top: 45px;
   list-style: none;
 }
 
 .header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 110px;
-  background-color: #111111;
+  height: 7vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px 2px #333;
   color: #ffffff;
 }
 

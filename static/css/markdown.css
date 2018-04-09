@@ -1,10 +1,11 @@
 .markdown {
-  padding: 5%;
-  padding-top: 1%;
   width: 40vw;
-  background-color: #fdfdfd;
+  padding: 5%;
+  padding-top: 4%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1.5vh;
+  background-color: #fdfdfd;
 }
 
 .markdown h1 {
@@ -49,8 +50,4 @@
 
 .markdown li {
   line-height: 2.0;
-}
-
-body {
-  font-size: 1.5vh;
 }

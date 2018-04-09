@@ -7,30 +7,40 @@
   <script src="/js/header.js"></script>
   <script src="/js/footer.js"></script>
   <link rel="stylesheet" type="text/css" href="/css/main.css">
-  <title>About</title>
+  <title>汉唐明创·关于</title>
 </head>
 
 <body>
   <div class='page-wrapper' id='main-page'>
     <v-header></v-header>
     <div class='content-wrapper'>
-      <div class='about-content'>
-        <div class='about-overlay'>
-          <br> · 公司简介&开发团队 SWCloud成立于2002年，这里可以简单的叙述公司的简介等，双击鼠标左键可以更改文字； 这里可以简单的叙述公司的简介等，双击鼠标左键可以更改文字。这里可以简单的叙述公司的简介等，双击鼠标左键可以更改文字； 可以简单的叙述公司的简介等，双击鼠标可以更改文字。这里可以简单的叙述公司的简介等，双击鼠标左键可以更改文字； 这里可以简单的叙述公司的简介等。SWCloud成立于2002年，这里可以简单的叙述公司的简介等，双击鼠标左键可以更改文字； 这里可以简单的叙述公司的简介等，双击鼠标左键可以更改文字。这里可以简单的叙述公司的简介等，双击鼠标左键可以更改文字； 可以简单的叙述公司的简介等，双击鼠标可以更改文字。这里可以简单的叙述公司的简介等，双击鼠标左键可以更改文字； 这里可以简单的叙述公司的简介等</br>
+      <div class='about-wrapper'>
+        <div class='about-text-overlay'>
+          <div class='intro-title-wrapper'>
+            <span class='intro-title'>汉唐明创·公司简介</span>
+          </div>
+          汉唐明创（武汉）科技有限公司成立于2018年。是一家致力于为中小企业客户提供大数据、互联网、物联网解决方案的高科技公司。公司有一批多年从事计算机软硬件研发、互联网运营的专业人才，专注于为企业客户提供互联网和物联网领域的软硬件解决方案。公司团队成员全部由来自中国惠普、华为、爱立信的资深架构师、项目经理、和高级软件工程师组成，拥有长期和世界500强电信运营商合作的深厚技术背景。公司通过合理的组织架构、高效的研发管理，不断完善在互联网和物联网领域的解决方案和咨询服务，满足客户追求智能化、高效化、人性化的需求。公司主要业务内容包括企业级大数据平台的咨询和构建、移动端应用研发、门户网站建设、企业级物联网平台的研发、运维、视频直播和视频会议平台建设。公司在2018年加入中软国际解放号平台，希望借此能更好的为企业客户提供可靠、高效、经济的优质 IT 服务。
+          <br>
         </div>
       </div>
+      <div class='about-wrapper-overlay'></div>
       <div class='contact-content'></div>
     </div>
-    <v-footer></v-footer>
+    <!-- <v-footer></v-footer> -->
   </div>
 </body>
 
 </html>
 <script src="/js/page.js"></script>
 <style type="text/css">
-.about-content {
+.nav-about-url a {
+  padding-bottom: 1vh;
+  border-bottom: 2px solid #ffffff;
+}
+
+.about-wrapper {
   width: 100%;
-  height: 70vh;
+  height: 85vh;
   background-image: url(http://ccdn.goodq.top/caches/927a729d326a897a6e2f27a03c31ee07/aHR0cDovLzU3ZThlY2Y0MTE1NWQudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8xMS9jNzIxOTEwMTZjZTRiMzYzNGU3Nzg5Y2QyOTIzNDU1Mi5qcGc_p_p100_p_3D.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,14 +49,25 @@
   position: relative;
 }
 
-.about-overlay {
+.about-wrapper-overlay {
+  width: 100%;
+  height: 85vh;
+  background-color: rgba(56, 48, 37, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+.about-text-overlay {
   width: 50%;
   height: 40vh;
   margin: auto;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -30%;
+  z-index: 3;
+  margin-left: -28%;
   margin-top: -20vh;
   padding-left: 3%;
   padding-right: 3%;
@@ -58,9 +79,27 @@
   line-height: 1.8;
 }
 
+.intro-title-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 8vh;
+  text-align: center;
+}
+
+.intro-title {
+  font-size: 4.0vh;
+  text-align: center;
+}
+
 .contact-content {
   width: 100%;
   height: 70vh;
+}
+
+.content-wrapper {
+  top: 0px;
+  position: absolute;
+  z-index: -1;
 }
 
 </style>

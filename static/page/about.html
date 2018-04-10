@@ -20,12 +20,42 @@
             <span class='intro-title'>汉唐明创·公司简介</span>
           </div>
           <div class='intro-content-wrapper'>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp汉唐明创（武汉）科技有限公司成立于2018年。是一家致力于为中小企业客户提供大数据、互联网、物联网解决方案的高科技公司。公司有一批多年从事计算机软硬件研发、互联网运营的专业人才，专注于为企业客户提供互联网和物联网领域的软硬件解决方案。公司团队成员全部由来自中国惠普、华为、爱立信的资深架构师、项目经理、和高级软件工程师组成，拥有长期和世界500强电信运营商合作的深厚技术背景。公司通过合理的组织架构、高效的研发管理，不断完善互联网和物联网领域的解决方案和咨询服务，满足客户追求智能化、高效化、人性化的IT服务需求。公司主要服务内容包括企业级大数据平台的技术咨询和构建、移动端应用开发、门户网站建设和托管、企业级物联网平台的开发和运维、视频直播和视频会议平台建设。公司在2018年加入中软国际解放号平台，希望借此能更好的为广大企业客户提供可靠、高效、经济的优质 IT 服务。
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp汉唐明创（武汉）科技有限公司成立于2018年。是一家致力于为中小企业客户提供大数据、互联网、物联网解决方案的高科技公司。公司有一批多年从事计算机软硬件研发、互联网运营的专业人才，专注于为企业客户提供互联网和物联网领域的软硬件解决方案。公司团队成员全部由来自中国惠普、华为、爱立信的资深架构师、项目经理、和高级软件工程师组成，拥有长期和世界500强电信运营商合作的深厚技术背景。公司通过合理的组织架构、高效的研发管理，不断完善互联网和物联网领域的解决方案和咨询服务，满足客户追求智能化、高效化、人性化的IT服务需求。公司主要服务内容包括企业级大数据平台的技术咨询和构建、移动端应用开发、门户网站建设和托管、企业级物联网平台的开发和运维、视频直播和视频会议平台建设。公司在2018年加入中软国际解放号平台，希望更好的为广大企业客户提供可靠、高效、经济的优质 IT 服务。
           </div>
         </div>
       </div>
       <div class='about-wrapper-overlay'></div>
-      <div class='contact-content'></div>
+      <div class='contact-wrapper'>
+        <div class='contact-content-wrapper'>
+          <div class='contact-title-wrapper'>
+            <span class='contact-title'>联系我们</span>
+          </div>
+          <div class='contact-info-wrapper'>
+            <div class='contact-address-wrapper'>
+              <span class='contact-address-title'>联系方式</span>
+              <div class='contact-address-detail'>
+                <br> 地址：武汉市光谷大道78号，金融港三期H7栋，1层01室61号
+                <br> 电话：18627807140
+                <br> 邮件：info@htmc.io
+                <br> 邮编：430070
+                <br> 营业时间：周一至周五9:00 – 18:00，节假日休息
+                <br>
+              </div>
+            </div>
+            <div class='contact-message-wrapper'>
+              <input class="input-name" placeholder="姓名" type="text">
+              <br>
+              <input class="input-email" placeholder="邮箱" type="text">
+              <br>
+              <input class="input-title" placeholder="主题" type="text">
+              <br>
+              <textarea class="input-content" placeholder="留言"></textarea>
+              <br>
+              <button class="submit-button" type="submit"><span>发送</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- <v-footer></v-footer> -->
   </div>
@@ -34,6 +64,12 @@
 </html>
 <script src="/js/page.js"></script>
 <style type="text/css">
+.content-wrapper {
+  top: 0px;
+  position: absolute;
+  z-index: -1;
+}
+
 .nav-about-url a {
   padding-bottom: 1vh;
   border-bottom: 2px solid #ffffff;
@@ -53,7 +89,7 @@
 .about-wrapper-overlay {
   width: 100%;
   height: 85vh;
-  background-color: rgba(56, 48, 37, 0.3);
+  background-color: rgba(56, 48, 37, 0.2);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -97,15 +133,111 @@
   font-size: 1.4vh;
 }
 
-.contact-content {
+.contact-wrapper {
   width: 100%;
-  height: 70vh;
+  height: 60vh;
+  background-color: #ffffff;
 }
 
-.content-wrapper {
-  top: 0px;
-  position: absolute;
-  z-index: -1;
+.contact-content-wrapper {
+  width: 50%;
+  height: 50vh;
+  margin: auto;
+  padding-top: 6vh;
+}
+
+.contact-title-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 6.5vh;
+  text-align: center;
+}
+
+.contact-info-wrapper {
+  width: 100%;
+  height: 70%;
+}
+
+.contact-title {
+  font-size: 4.0vh;
+  /*font-weight: bold;*/
+  padding-bottom: 2vh;
+  border-bottom: 3px solid #f1501a;
+}
+
+.contact-address-wrapper {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.contact-message-wrapper {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.contact-address-title {
+  font-size: 2.7vh;
+}
+
+.contact-address-detail {
+  font-size: 1.5vh;
+  line-height: 2.8vh;
+}
+
+.contact-message-wrapper input {
+  width: 20vw;
+  height: 2.4vh;
+  padding-left: 4px;
+  margin-bottom: 1.2vh;
+  font-size: 1.5vh;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(221, 221, 221);
+  color: rgb(0, 0, 0);
+}
+
+.contact-message-wrapper textarea {
+  width: 20.04vw;
+  height: 7vh;
+  max-width: 20.04vw;
+  max-height: 7vh;
+  padding-left: 4px;
+  margin-bottom: 2.0vh;
+  font-size: 1.5vh;
+  font-family: "Microsoft Yahei";
+  /*resize: none;*/
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(221, 221, 221);
+  color: rgb(0, 0, 0);
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #bbbbbb;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bbbbbb;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #bbbbbb;
+}
+
+
+button {
+  font-size: 1.5vh;
+  width: 5vw;
+  height: 3vh;
+  outline: 0px;
+  border: none;
+  color: #ffffff;
+  background-color: #f1501a;
 }
 
 </style>
